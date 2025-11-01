@@ -72,7 +72,7 @@ Après profilage, nous avons observé que,
 
 ## Création du schéma sur dbdiagram.io
 
-
+![alt text](images/diagramme.png)
 
 
 4. Structure et Traitement des Flux de données
