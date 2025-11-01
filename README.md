@@ -9,10 +9,14 @@ Les données clients étant réparties sur plusieurs sources et dans des formats
 
 ## Outils et Technologies
 
-### - TALEND TOS 8.1 Data Integration : Environnement de développement ETL
-### - Java (déjà intégré dans TALEND)
-### - MySQL : Stockage et consolidation des données transformées
-### - dbdiagram.io : Visualisation du schéma relationnel
+**- TALEND TOS 8.1 Data Integration : Environnement de développement ETL**
+
+**- Java (déjà intégré dans TALEND)**
+
+**- MySQL : Stockage et consolidation des données transformées**
+
+**- dbdiagram.io : Visualisation du schéma relationnel**
+
 
 
 ## Objectifs du projet
