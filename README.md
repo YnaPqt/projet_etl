@@ -47,7 +47,7 @@ Après chargement des fichiers, il est possible de modifier le schéma en allant
 
 ![alt text](images/fileInputdelimited3.png.png))
 
-**Extraction (Extract)**
+**Extraction**
 
 Les données proviennent de plusieurs sources hétérogènes :
 
