@@ -20,29 +20,38 @@ Les données clients étant réparties sur plusieurs sources et dans des formats
 
 
 ## Objectifs du projet
-1. Import et analyse de profilage de données
+1. Création d'un environnement ("job") dans TALEND
+2. Import et analyse de profilage de données
 2. Création du schéma
 3. Structure de la base de données
 4. Transformation de données (Normalisation) 
 5. Chargement du résultat final dans la base de données MySQL 
 
 
+## Création d'un environnement ou  d'un job dans TALEND
+
+![alt text](images/job.png)
+
+
+
 ## Import et analyse de profilage de données
 
-**- Extraction (Extract)**
+**Extraction (Extract)**
 
 Les données proviennent de plusieurs sources hétérogènes :
 
 - CRM : informations clients et historiques de contact,
-
 - ERP : données de facturation et de ventes,
-
 - E-Commerce : informations sur les commandes et nouveaux clients.
 
 Ces fichiers sont importés dans Talend Open Studio depuis un format CSV.
 
 
-## 4. Structure et Traitement des Flux de données
+## 
+
+
+
+4. Structure et Traitement des Flux de données
    ### - Import de données
    ### - Transformation de données (Normalisation)
        - Gestion des valeurs nulles
