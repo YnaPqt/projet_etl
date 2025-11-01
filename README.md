@@ -20,7 +20,7 @@ Les données clients étant réparties sur plusieurs sources et dans des formats
 
 
 ## Objectifs du projet
-1. Création d'un environnement ("job") dans TALEND
+1. Création d'un environnement ou d'un job dans TALEND
 2. Import et analyse de profilage de données
 2. Création du schéma
 3. Structure de la base de données
@@ -35,17 +35,18 @@ Les données clients étant réparties sur plusieurs sources et dans des formats
 
 ## Import et analyse de profilage de données
 
+Après la création de l’environnement, charger les fichiers CSV en utilisant le composant tFileInputDelimited. Pour le faire, aller dans “Palette” à droite de et taper le nom du composant et faire glisser dans le job.
+
 ![alt text](images/fileInputdelimited.png)
 
-Après la création de l’environnement, charger les fichiers CSV en utilisant le composant tFileInputDelimited. Pour le faire, aller dans “Palette” à droite de et taper le nom du composant et faire glisser dans le job.
 
 Double cliquer sur le composant, et charger le fichier comme indiqué ci-dessous.
 
-![alt text](images/fileInputdelimited2.png.png)
+![alt text](images/fileInputdelimited2.png)
 
 Après chargement des fichiers, il est possible de modifier le schéma en allant dans “Modifier le schéma”.
 
-![alt text](images/fileInputdelimited3.png.png))
+![alt text](images/fileInputdelimited3.png)
 
 **Extraction**
 
