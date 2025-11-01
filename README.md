@@ -30,8 +30,7 @@ Les données clients étant réparties sur plusieurs sources et dans des formats
 
 ## Création d'un environnement ou  d'un job dans TALEND
 
-![alt text](images/job.png)
-
+![alt text](images/job.pngjob.png)
 
 
 ## Import et analyse de profilage de données
