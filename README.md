@@ -88,11 +88,40 @@ Après profilage, nous avons observé que,
 
 **Flux de transformation du nouveau fichier clients**
 
+Après l’analyse de profilage des données, nous avons créé un premier flux destiné à générer un nouveau fichier clients en fusionnant les clients qui n’existent pas encore dans le CRM.
+Dans ce flux, nous avons utilisé les composants tMap, tUniqRow et tUnite.
+Étant donné que les client_id diffèrent d’une source à l’autre, nous avons basé la correspondance sur le nom du client et l’adresse e-mail.
+Le composant tUniqRow nous a permis de corriger les doublons présents dans le CRM.
+
 ![alt text](images/flux_nouveaux_clients.png)
 
-**Flux de nettoyage des fichiers**
+
+
+**Flux de transformation des 3 fichiers**
+
 
 ![alt text](images/flux_nettoyage_fichiers.png)
+
+Dans notre composant tMap il nous est aussi possible de normaliser et standardiser à l’aide d’expressions nos données, ces expressions sont faites à partir de fonctions en Java, car c’est aussi le moteur de TALEND, donc il interprète ce langage.
+Par exemple en entrée nous avons des données de type String mais nous souhaitons les faire sortir au format Date, pour que nos données soient bien interprétables par la suite depuis notre base de données, voici un exemple:
+
+![alt text](images/format1.png)
+
+Cela prend une date au format String et la retourne au format Date. 
+
+Il nous est aussi possible de gérer les espaces en trop, ou encore les valeurs nulles, voici un autre exemple d’expressions permettant de le faire:
+
+![alt text](images/format2.png)
+
+Si nous avons une valeur nulle ou vide comme “” nous affichons “Inconnue” sinon nous affichons le nom de la ville.
+Cela permet de ne pas se retrouver avec des valeurs non voulues dans notre base de données.
+Pour finir voici un dernier exemple montrant la conversion de nos données du type String vers le type Float:
+
+![alt text](images/format3.png)
+
+Si le revenu annuel est nul ou vide, on affiche 0.0 au format float, et en utilisant une regex (expression régulière) permettant de ne garder que les chiffres d’une chaîne de caractères et de remplacer tous les autres caractères par du vide “”, alors nous obtiendrons la possibilité de ne garder que le chiffre de ce genre de données au format non normé : 
+
+![alt text](images/format4.png)
 
 ## Chargement du résultat final dans la base de données MySQL
 
