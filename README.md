@@ -86,6 +86,13 @@ Après profilage, nous avons observé que,
 ## Transformation de données (Normalisation) 
 
 
+**Flux de transformation du nouveau fichier clients**
+
+![alt text](images/flux_nouveaux_clients.png)
+
+**Flux de nettoyage des fichiers**
+
+![alt text](images/flux_nettoyage_fichiers.png)
 
 ## Chargement du résultat final dans la base de données MySQL
 
