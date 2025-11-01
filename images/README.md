@@ -72,16 +72,21 @@ Après profilage, nous avons observé que,
 
 ## Création du schéma sur dbdiagram.io
 
+
 ![alt text](images/diagramme.png)
 
 
-4. Structure et Traitement des Flux de données
-   ### - Import de données
-   ### - Transformation de données (Normalisation)
-       - Gestion des valeurs nulles
-       - Formatage
-   - Jointures
-   - Chargement de données dans une base de données
-## 5. Résultat final dans la base de données
+## Structure de la base de données
+
+
+![alt text](images/schema_base.png)
+
+
+
+## Transformation de données (Normalisation) 
+
+
+
+## Chargement du résultat final dans la base de données MySQL
 
 
