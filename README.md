@@ -123,6 +123,28 @@ Si le revenu annuel est nul ou vide, on affiche 0.0 au format float, et en utili
 
 ![alt text](images/format4.png)
 
+
+**Jointures**
+
+Concernant les jointures des données clients, nous avons fusionné les fichiers issus de différentes sources, en gérant les cas suivants :
+Les colonnes différentes entre les fichiers,
+Les identifiants clients (client_id) distincts pour chaque système.
+
+Pour effectuer les jointures, nous avons utilisé les composants tMap et tUnite.
+
+Lors du profilage des données, nous avons également observé que certains clients du fichier E-Commerce et du fichier ERP n’existaient pas dans le CRM.
+Nous avons donc utilisé tMap pour identifier et filtrer les nouveaux clients, puis un composant tUnite afin de les intégrer dans le CRM.
+
+![alt text](images/jointures.png)
+
+**Tableau Final**
+
+Pour afficher nos données nous utilisons d’abord le composant tLogRow qui permet d’afficher l’état de notre flux de données à des moments précis, on peut donc voir le changement de nos données pendant l’étape de transformation.
+Voici à quoi ressemble ce composant et comment il est utilisé simplement dans TALEND:
+
+
+![alt text](images/tab_final.png)
+
 ## Chargement du résultat final dans la base de données MySQL
 
 
