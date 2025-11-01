@@ -22,7 +22,7 @@ Les données clients étant réparties sur plusieurs sources et dans des formats
 ## Objectifs du projet
 1. Création d'un environnement ou d'un job dans TALEND
 2. Import et analyse de profilage de données
-2. Création du schéma
+2. Création du schéma sur dbdiagram.io
 3. Structure de la base de données
 4. Transformation de données (Normalisation) 
 5. Chargement du résultat final dans la base de données MySQL 
@@ -34,6 +34,16 @@ Les données clients étant réparties sur plusieurs sources et dans des formats
 
 
 ## Import et analyse de profilage de données
+
+**Extraction**
+
+Les données proviennent de plusieurs sources hétérogènes :
+
+- CRM : informations clients et historiques de contact,
+- ERP : données de facturation et de ventes,
+- E-Commerce : informations sur les commandes et nouveaux clients.
+
+Ces fichiers sont importés dans Talend Open Studio depuis un format CSV.
 
 Après la création de l’environnement, charger les fichiers CSV en utilisant le composant tFileInputDelimited. Pour le faire, aller dans “Palette” à droite de et taper le nom du composant et faire glisser dans le job.
 
@@ -48,18 +58,20 @@ Après chargement des fichiers, il est possible de modifier le schéma en allant
 
 ![alt text](images/fileInputdelimited3.png)
 
-**Extraction**
 
-Les données proviennent de plusieurs sources hétérogènes :
+**Analyse de profilage**
 
-- CRM : informations clients et historiques de contact,
-- ERP : données de facturation et de ventes,
-- E-Commerce : informations sur les commandes et nouveaux clients.
+Après le chargement des fichiers CSV dans le job Talend, un profilage de données est effectué pour nous  permettre de savoir si les fichiers contiennent des clients ou des transactions en double ainsi que vérifier les formats ou les types de données de chaque source de données.
 
-Ces fichiers sont importés dans Talend Open Studio depuis un format CSV.
+Après profilage, nous avons observé que,  
+- le fichier venant de la source CRM contient des doublons
+- certains clients du fichier ERP et du fichier Ecommerce n'existent pas dans le CRM
+- les fichiers contiennent des informations différentes
+- les types de données sont à normaliser
 
 
-## 
+## Création du schéma sur dbdiagram.io
+
 
 
 
