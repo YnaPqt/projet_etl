@@ -154,4 +154,15 @@ Voici à quoi ressemble ce composant et comment il est utilisé simplement dans 
 
 ## Chargement du résultat final dans la base de données MySQL
 
+Pour mettre nos données transformées dans une base de données, il existe plusieurs composants qui permettent de le faire dans TALEND.
+Notre base de données de destination est une base mySQL que nous visionnons sur PhpMyAdmin en local.
+Donc dans notre cas utiliser le composant tMySQLOutput est le plus pertinent.
+Il nous faut donc paramétrer la connexion vers la base de données pour que TALEND y ait accès et puisse insérer les données dans une table de la base.
 
+![alt text](images/db_connexion.png)
+
+Une fois ces informations renseignées, on peut lancer l’exécution du flux et observer (si toutes nos informations sont correctes) que la table a été créée et est peuplée par nos données.
+
+Pour finir voici le rendu en base de données, une fois que les données ont bien été transférées dans notre base de données : 
+
+![alt text](images/table_db.png)
