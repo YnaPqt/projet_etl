@@ -166,3 +166,10 @@ Une fois ces informations renseignées, on peut lancer l’exécution du flux et
 Pour finir voici le rendu en base de données, une fois que les données ont bien été transférées dans notre base de données : 
 
 ![alt text](images/table_db.png)
+
+
+
+##  Auteurs
+**Projet ETL**  
+Développé par : Ronalyn PEQUET -  Teddy PRIVAT
+
