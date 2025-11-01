@@ -7,7 +7,7 @@ Ce projet a pour objectif de centraliser et harmoniser les données clients issu
 Les données clients étant réparties sur plusieurs sources et dans des formats différents, un processus ETL (Extract – Transform – Load) a été mis en place à l’aide d'un outil' pour automatiser leur intégration et assurer la qualité du résultat final.
 
 
-## Outils et Technologies
+## Technologies
 
 **1. TALEND Open Studio 8.1 : Environnement de développement ETL**
 
