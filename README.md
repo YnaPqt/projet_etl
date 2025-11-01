@@ -9,7 +9,7 @@ Les données clients étant réparties sur plusieurs sources et dans des formats
 
 ## Outils et Technologies
 
-**1. TALEND TOS 8.1 Data Integration : Environnement de développement ETL**
+**1. TALEND Open Studio 8.1 : Environnement de développement ETL**
 
 **2. Java (déjà intégré dans TALEND)**
 
@@ -28,7 +28,11 @@ Les données clients étant réparties sur plusieurs sources et dans des formats
 6. Chargement du résultat final dans la base de données MySQL 
 
 
-## 3. Structure de la base de données 
+
+
+## 1. Analyse de profilage de données
+
+
 ## 4. Structure et Traitement des Flux de données
    ### - Import de données
    ### - Transformation de données (Normalisation)
