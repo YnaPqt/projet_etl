@@ -30,10 +30,15 @@ Les données clients étant réparties sur plusieurs sources et dans des formats
 ## Import et analyse de profilage de données
 
 - Extraction (Extract)
+
 Les données proviennent de plusieurs sources hétérogènes :
+
 CRM : informations clients et historiques de contact,
+
 ERP : données de facturation et de ventes,
+
 E-Commerce : informations sur les commandes et nouveaux clients.
+
 Ces fichiers sont importés dans Talend Open Studio depuis un format CSV.
 
 
