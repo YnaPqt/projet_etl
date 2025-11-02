@@ -17,6 +17,8 @@ Les données clients étant réparties sur plusieurs sources et dans des formats
 
 **4. dbdiagram.io : Visualisation du schéma relationnel**
 
+**5. PHPMyAdmin : Interface SGBD**
+
 
 
 ## Objectifs du projet
