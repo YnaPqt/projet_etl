@@ -1,6 +1,6 @@
 # Projet de developpement des pipelines ETL
 
-## Context du Projet
+## Contexte du Projet
 
 Ce projet a pour objectif de centraliser et harmoniser les données clients issues de plusieurs systèmes d’information (CRM, ERP et E-Commerce) afin de disposer d’une base de données consolidée et cohérente pour l’analyse et la prise de décision.
 
