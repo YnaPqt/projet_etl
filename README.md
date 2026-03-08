@@ -171,7 +171,4 @@ Pour finir voici le rendu en base de données, une fois que les données ont bie
 
 
 
-##  Auteurs
-**Projet ETL**  
-Développé par : Ronalyn PEQUET -  Teddy PRIVAT
 
